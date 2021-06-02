@@ -1,0 +1,26 @@
+{
+  "name": "pixi-rollup-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimum usage with PixiJS and Rollup",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production",
+    "watch": "rollup -cw"
+  },
+  "keywords": [
+    "pixijs",
+    "rollup"
+  ],
+  "author": "Matt Karl @bigtimebuddy",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.50.5"
+  },
+  "dependencies": {
+    "pixi.js": "^6.0.4"
+  }
+}
